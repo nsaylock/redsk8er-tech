@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(122, 122, 122);
+}
+
+/* ***************   HEADER **********************/
+
+.header-container {
+    padding: 10px;
+    display: flex;
+    flex: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid black;
+}
+
+.header {
+    height: 75px; 
+    flex: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.header, 
+.header-container {
+    background-color: rgb(211, 65, 65);
+}
+
+.company-name {
+    color: white;
+    flex: 2;
+    font-size: 3rem;
+    margin-right: auto;
+    align-self: center;
+    padding-left: 25px;
+
+}
+
+.---link---,
+.contact {
+    color: white;
+    font-weight: bold;
+    flex-basis: 75px;
+    align-self: center;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* ****************  Main AREA ***********************/
+.top-spacer {
+    padding-top: 100px;
+}
+
+/* *************** Outline things to see what you're doing ****************/
+.main-content,
+.section-header,
+.content,
+.first-paragraph {
+    outline: 2px solid blue;
+}
+/* ************************************************************************/
+
+.main-content {
+    background-color: whitesmoke;
+    color: black;
+    height: 1500px;
+    margin: 20px 100px;
+    padding-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 20px;
+    flex: auto;
+}
+
+
+.first-paragraph {
+    margin-bottom: 5px;
+    flex: auto;
+}
+
