@@ -44,7 +44,22 @@ body {
 
 }
 
-.---link---,
+.---link1--- {
+    color: white;
+    font-weight: bold;
+    flex-basis: 75px;
+    align-self: center;
+    text-align: center;
+}
+
+.---link2--- {
+    color: white;
+    font-weight: bold;
+    flex-basis: 75px;
+    align-self: center;
+    text-align: center;
+}
+
 .contact {
     color: white;
     font-weight: bold;
